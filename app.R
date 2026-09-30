@@ -7,11 +7,11 @@ source("global.R")
 
 # Explicit (not looped) so a problem in one file gives a clear error
 # pointing at that exact file, instead of silently skipping the rest.
-source("C:/Users/Esther Mazarura/Downloads/RShiny - Claude construct/mod_about.R")
-source("C:/Users/Esther Mazarura/Downloads/RShiny - Claude construct/mod_methodology.R")
-source("C:/Users/Esther Mazarura/Downloads/RShiny - Claude construct/mod_application.R")
-source("C:/Users/Esther Mazarura/Downloads/RShiny - Claude construct/mod_weather.R")
-source("C:/Users/Esther Mazarura/Downloads/RShiny - Claude construct/mod_conclusion.R")
+source("mod_about.R")
+source("mod_methodology.R")
+source("mod_application.R")
+source("mod_weather.R")
+source("mod_conclusion.R")
 
 ui <- fluidPage(
   titlePanel("Ekurhuleni Wastewater-Based COVID-19 Surveillance"),
